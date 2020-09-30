@@ -1,0 +1,296 @@
+
+
+body
+{
+	font-size: 14px;
+	margin: 0;
+}
+body header{
+	align-items: center;
+	width: 100%;
+	background-color: #30608F;
+	text-align:justify;
+}
+
+body header .centrar .logo{
+    width: 300px;
+}
+
+input{
+    border-radius: 5px;
+    border-color: #30608F;
+}
+textarea{
+    border-radius: 5px;
+    border-color: #30608F;
+}
+
+footer{
+	background-color: #30608F;
+	display: inline-block;
+    float: left;
+	width: 100%;
+    margin-top: 50px;
+	height:70px;
+}
+
+body .img-logo{
+    width: 100%;
+}
+
+h3{
+	color: black;
+}
+.block{
+	border:1px solid black;
+	box-sizing: border-box;
+	color: #444;
+	padding:1em;
+	display: inline-block;
+	margin-bottom: 30px;
+	margin-right: 30px;
+    border-radius: 5px;
+}
+.centrar{
+	text-align: center;
+}
+
+.row{
+	display: block;
+	overflow: hidden;
+}
+.img-head{
+	display: block;
+	margin: auto;
+}
+.img-float-right{
+	float: right;
+}
+.img-min{
+	width: 20px;
+	height:20px;
+	padding-top: 30px;
+}
+body .div-dere{
+	text-align: right;
+	width: 50%;
+	height: 500px;
+	align-content: center;
+	float: left;
+}
+
+body .div-dere img{
+    width: 100%;
+    height: 80%;
+}
+
+body .div-izquierda{
+    margin-top: 120px;
+    float: left;
+	width: 50%;
+	height: 500px;
+}
+
+body .div-izquierda div{
+    margin-left:80px;
+    margin-bottom: 10px;
+}
+
+.div-conta{
+	width: 100%;
+	height: 50px;
+	background-color: #8DABC2;
+}
+
+body header .menu{
+    background-color: white;
+    float: left;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+
+}
+
+
+body header .menu li{
+    background-color: white;
+    float: left;
+    display: block;
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+    color: #32618D;
+    
+}
+
+body header .menu li a{
+    text-decoration: none;
+    list-style: none;
+    color: #32618D;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.img-hero{
+	width: 350px;
+	height: 250px;
+}
+.oferta{
+	text-align: center;
+	margin-top: 20px;
+	color: #32618D;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.contacto{
+	text-align: center;
+	color: white;
+	font-size: 23px;
+	padding-top: 0.5em;
+}
+.img-conta{
+	margin-top: 70px;
+	margin-left: 40px;
+	width: 440px;
+	height: 280px;
+
+}
+.h2-foot{
+	padding-top: 0.5em;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #E5B212;
+    font-size: 12px;
+
+}
+.line-h2{
+	color: green;
+}
+.btn{
+	background-color: #30608F;
+	border-radius: 4px;
+    border-width: 5px;
+	color: white;
+	font-size: 13px;
+	padding:8px 33px;
+	width:100px;
+	margin-left: 20em;
+	margin-top: 2em;
+	text-align: center;
+	}
+	.tam-text{
+		height: 25px;
+        width: 40%;
+	}
+
+
+/*RESPONSIVE*/
+
+@media only screen and (max-width: 1200px){    
+    
+    body header .centrar .logo{
+        width: 900px;
+    }
+    
+    body header .menu{
+        margin: 0;
+        width: 100%;
+        height: 60px;
+        padding: 10px;
+    }
+    
+    body header .menu li a{
+        font-size: 20px;
+        padding: 5px;
+    }
+    
+    body .slide img{
+        width: 100%;
+    }
+    
+    body .oferta{
+        text-align: center;
+    margin-top: 20px;
+    color: #32618D;
+    font-size: 20px;
+    margin-bottom: 30px;
+    }
+    
+    body .centrar .block{
+        width: 100%;
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    body .centrar .block img{
+        width: 800px;
+        height: 600px;
+    }
+    
+    
+    body .div-conta{
+        height: 20%;
+    }
+    
+    body .div-conta h1{
+        font-size: 30px;
+    }
+    
+    body .div-dere{
+        width: 100%;
+        float: left;
+        height: 620px;
+    }
+    
+    body .div-dere img{
+        align-content: center;
+        float: left;
+        padding: 10px;
+        margin: 0;
+        width: 98%;
+        height: 600px;
+    }
+    
+    body .div-izquierda{
+        margin-top: 10px;
+        width: 100%;
+        float: left;
+    }
+    
+    body .div-izquierda .cuadro-text{
+        text-align: center;
+    }
+    
+    body .div-izquierda .cuadro-text input{
+        width: 90%;
+        height: 35px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    body .div-izquierda .cuadro-text textarea{
+        height: 100px;
+        width: 90%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    body .div-izquierda .btn{
+        margin: 0;
+        padding: 0;
+        width: 150px;
+        height: 50px;
+        font-size: 35px;
+        text-align: center;
+        margin-left: 45%;
+        margin-top: 10px;
+    }
+    
+    body footer{
+        float: left;
+        margin-top:30px;
+    }
+    
+}
